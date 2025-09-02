@@ -1,0 +1,21 @@
+- pong but there’s a random (6 letter?) word, have to press letter to move paddle
+    - uses standard keyboard
+    - looks like normal pong, but there’s a word spelled out on the player’s side
+    - “press a letter to serve”
+    - pressing a letter instantly moves the paddle to the position of the letter (paddle must be wider than letter so it’s always possible to hit the ball)
+    - everytime they serve the ball, the word changes
+    - so a letter is pressed, the ball is served, and the player has until the ball comes back to find the correct key and press it before the ball gets past them
+
+- pong but you can only move right
+    - controlled by right arrow and spacebar on keyboard (or some other set of two buttons)
+    - 
+    - “press → to move, and spacebar to serve”
+    - each time → is pressed, a force is applied to the ball going right, so spamming it gets it to go faster and faster
+    - the ball has friction so it will eventually slow down after not long
+    - a brake button may be added, which can be held, and would apply a force in the opposite direction
+
+- pong but you must commit to a direction
+    - is there a type of controller that would take long to switch directions physically?
+    - each time the button/lever/key/etc is pressed, it instantly increases velocity linearly
+    - if the paddle reaches the end of the screen, it is stuck until it hits the ball or the player loses
+    - if the paddle hits the ball, it halts, and the player chooses which direction to go next
